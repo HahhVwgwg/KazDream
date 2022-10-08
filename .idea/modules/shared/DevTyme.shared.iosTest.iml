@@ -76,7 +76,7 @@
     <orderEntry type="module-library" scope="TEST">
       <library name="Gradle: io.github.aakira:napier:darwinMain:2.4.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/io.github.aakira-napier/io.github.aakira-napier-darwinMain.klib!/" />
+          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/commonTest/api/io.github.aakira-napier/io.github.aakira-napier-darwinMain.klib!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
@@ -94,17 +94,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:runtime:commonMain:1.5.3" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: com.squareup.sqldelight:runtime:nativeMain:1.5.3">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/com.squareup.sqldelight-runtime/com.squareup.sqldelight-runtime-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.sqldelight/runtime/1.5.3/47692d9147c9f457d09bf41b336f5c7d614f42df/runtime-1.5.3-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:runtime:nativeMain:1.5.3" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -115,6 +105,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-serialization:commonMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-serialization:posixMain:1.6.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -125,29 +116,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-collections:commonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-collections/co.touchlab-stately-collections-commonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-collections/1.1.10/2caa476c2cbf739fa79aecd8a9da0635f782b2ca/stately-collections-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-collections:nativeCommonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-collections/co.touchlab-stately-collections-nativeCommonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-collections/1.1.10/2caa476c2cbf739fa79aecd8a9da0635f782b2ca/stately-collections-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-collections:commonMain:1.1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-collections:nativeCommonMain:1.1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-logging:commonMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-logging:posixMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -157,28 +129,8 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-common:commonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-common/co.touchlab-stately-common-commonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-common/1.1.10/a3b38cb92328fa4bcb83b0620d1779b532564b6e/stately-common-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-common:nativeCommonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-common/co.touchlab-stately-common-nativeCommonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-common/1.1.10/a3b38cb92328fa4bcb83b0620d1779b532564b6e/stately-common-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-common:commonMain:1.1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-common:nativeCommonMain:1.1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-auth:commonMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -189,40 +141,11 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-concurrency:commonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-commonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-concurrency:darwinMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-darwinMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: co.touchlab:stately-concurrency:nativeCommonMain:1.1.10">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/api/co.touchlab-stately-concurrency/co.touchlab-stately-concurrency-nativeCommonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/stately-concurrency/1.1.10/ba0c2b68ca733a2a38b8b73b829c8b35375fe5b8/stately-concurrency-1.1.10-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-concurrency:commonMain:1.1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-concurrency:darwinMain:1.1.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:stately-concurrency:nativeCommonMain:1.1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:commonMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core:posixMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -234,6 +157,7 @@
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:commonMain:1.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:concurrentMain:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.0" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -244,6 +168,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.insert-koin:koin-core:commonMain:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.insert-koin:koin-core:darwinMain:3.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.insert-koin:koin-core:nativeMain:3.1.2" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -254,6 +180,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:commonMain:0.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.3.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.3.2" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -264,6 +192,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:commonMain:1.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.1" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -273,6 +202,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: com.russhwolf:multiplatform-settings-no-arg:appleMain:0.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.russhwolf:multiplatform-settings-no-arg:commonMain:0.8.1" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -312,6 +242,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-json:posixMain:1.6.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:commonMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -323,6 +254,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:commonMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:nativeMain:1.3.0" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -333,6 +265,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: com.russhwolf:multiplatform-settings:commonMain:0.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.0" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -342,6 +277,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http-cio:posixMain:1.6.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:commonMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -352,6 +288,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-http:posixMain:1.6.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:commonMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
@@ -362,6 +299,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: com.russhwolf:multiplatform-settings:apple64Main:0.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.russhwolf:multiplatform-settings:appleMain:0.8.1" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -400,6 +339,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:posixMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-utils:utilsInterop:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -409,6 +350,9 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:bitsMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:posixMain:1.6.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-io:socketsMain:1.6.7" level="project" />
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -1455,273 +1399,9 @@
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:native-driver:nativeDarwinMain:1.5.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.sqldelight:native-driver:nativeMain:1.5.3" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-client-serialization:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-client-serialization/io.ktor-ktor-client-serialization-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.6.7/f27a53064697472cfe8d80fb40f82a734fc533d6/ktor-client-serialization-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-client-logging:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-client-logging/io.ktor-ktor-client-logging-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging/1.6.7/3d9b28983c2110368a620e20fe4979f9410faf33/ktor-client-logging-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-ios:darwinMain:1.6.7" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-client-core:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-client-core/io.ktor-ktor-client-core-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.6.7/cd8dbd3a519cb324c192480a419b3fb9da72d4b2/ktor-client-core-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:nativeMain:1.6.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-coroutines-core/org.jetbrains.kotlinx-kotlinx-coroutines-core-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.0/327ad3b2d2ffb2152dd25e945a8f6fd9dc72a7d0/kotlinx-coroutines-core-1.6.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.insert-koin:koin-core:darwinMain:3.1.2">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.insert-koin-koin-core/io.insert-koin-koin-core-darwinMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core/3.1.2/f5d6aa5a89a30ac691696201c3797e7ca1674e8b/koin-core-3.1.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.insert-koin:koin-core:nativeMain:3.1.2">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.insert-koin-koin-core/io.insert-koin-koin-core-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core/3.1.2/f5d6aa5a89a30ac691696201c3797e7ca1674e8b/koin-core-3.1.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:darwinMain:0.3.2">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-darwinMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.2/369d037ba8a21c4cc18e34748a03b926a2840c44/kotlinx-datetime-0.3.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.3.2">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.2/369d037ba8a21c4cc18e34748a03b926a2840c44/kotlinx-datetime-0.3.2-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core:nativeMain:1.3.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-core/org.jetbrains.kotlinx-kotlinx-serialization-core-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core/1.3.1/95a888eac5351a4441c318363128144e9d6e446d/kotlinx-serialization-core-1.3.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: com.russhwolf:multiplatform-settings-no-arg:appleMain:0.8.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/com.russhwolf-multiplatform-settings-no-arg/com.russhwolf-multiplatform-settings-no-arg-appleMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.russhwolf/multiplatform-settings-no-arg/0.8.1/4e61393548b387cb7f84886f089751d7bc26e153/multiplatform-settings-no-arg-0.8.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:sqliter-driver:appleMain:1.0.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: co.touchlab:sqliter-driver:nativeCommonMain:1.0.10" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-client-json:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-client-json/io.ktor-ktor-client-json-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.6.7/9ec4b14382a28b1627724c78f257ec14c68a8387/ktor-client-json-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json:nativeMain:1.3.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-kotlinx-serialization-json/org.jetbrains.kotlinx-kotlinx-serialization-json-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json/1.3.0/351db062cbf547bc293ae3a7e887e6f4653a109f/kotlinx-serialization-json-1.3.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:commonMain:0.17.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-commonMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.17.0/dcef5be61c225f1e12b228f23db9bcae613726f/atomicfu-0.17.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeInterop:0.17.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeInterop.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.17.0/dcef5be61c225f1e12b228f23db9bcae613726f/atomicfu-0.17.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:nativeMain:0.17.0">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/org.jetbrains.kotlinx-atomicfu/org.jetbrains.kotlinx-atomicfu-nativeMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.17.0/dcef5be61c225f1e12b228f23db9bcae613726f/atomicfu-0.17.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-http-cio:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-http-cio/io.ktor-ktor-http-cio-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.6.7/1c4851934fbfafc38d7d44100e34d598a27dce4e/ktor-http-cio-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-http:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-http/io.ktor-ktor-http-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.6.7/f8d13144078daf322dc8e40aafacca0e9f8203d7/ktor-http-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: com.russhwolf:multiplatform-settings:apple64Main:0.8.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/com.russhwolf-multiplatform-settings/com.russhwolf-multiplatform-settings-apple64Main.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.russhwolf/multiplatform-settings/0.8.1/cc674780c2f0d82e6568b697efc724aaab9f0b5f/multiplatform-settings-0.8.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: com.russhwolf:multiplatform-settings:appleMain:0.8.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/com.russhwolf-multiplatform-settings/com.russhwolf-multiplatform-settings-appleMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.russhwolf/multiplatform-settings/0.8.1/cc674780c2f0d82e6568b697efc724aaab9f0b5f/multiplatform-settings-0.8.1-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-utils:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-utils/io.ktor-ktor-utils-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.6.7/2c8488a61b53394911c95353fdc6889898f13f66/ktor-utils-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-utils:utilsInterop:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-utils/io.ktor-ktor-utils-utilsInterop.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.6.7/2c8488a61b53394911c95353fdc6889898f13f66/ktor-utils-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-io:bitsMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-bitsMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.7/74e7b4c59e5e01f2bfd132ee0264005a6c3c3097/ktor-io-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-io:posixMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-posixMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.7/74e7b4c59e5e01f2bfd132ee0264005a6c3c3097/ktor-io-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="TEST">
-      <library name="Gradle: io.ktor:ktor-io:socketsMain:1.6.7">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../.gradle/kotlin/sourceSetMetadata/shared.DevTyme/iosMain/implementation/io.ktor-ktor-io/io.ktor-ktor-io-socketsMain.klib!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.6.7/74e7b4c59e5e01f2bfd132ee0264005a6c3c3097/ktor-io-1.6.7-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
   <component name="TestModuleProperties" production-module="DevTyme.shared.iosMain" />
 </module>

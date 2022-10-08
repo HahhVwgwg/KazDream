@@ -11,8 +11,8 @@
           <sourceSet>DevTyme.shared.commonTest</sourceSet>
           <sourceSet>DevTyme.shared.iosTest</sourceSet>
           <sourceSet>DevTyme.shared.iosArm64Main</sourceSet>
-          <sourceSet>DevTyme.shared.iosMain</sourceSet>
           <sourceSet>DevTyme.shared.commonMain</sourceSet>
+          <sourceSet>DevTyme.shared.iosMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
