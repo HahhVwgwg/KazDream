@@ -49,7 +49,7 @@ fun DatesTabs(
                     Text(
                         text = tabItem.toPresentation(),
                         color = if (isSelected) Color.Black else MaterialTheme.colors.onPrimary,
-                        fontSize = if (isSelected) 18.sp else 14.sp,
+                        fontSize = if (isSelected) 14.sp else 14.sp,
                         style = MaterialTheme.typography.h5,
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis,

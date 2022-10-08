@@ -43,7 +43,7 @@ fun HomeToolbar(
             Text(
                 text = title,
                 color = MaterialTheme.colors.onPrimary,
-                fontSize = 24.sp,
+                fontSize = 22.sp,
                 style = MaterialTheme.typography.h5,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,

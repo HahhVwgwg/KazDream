@@ -33,12 +33,13 @@ fun CityItemView(modifier: Modifier, title: String, image: String, selected: Boo
             modifier = Modifier
                 .padding(vertical = 6.dp, horizontal = 16.dp)
                 .fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
                 text = title,
                 color = MaterialTheme.colors.onSecondary,
-                fontSize = 20.sp,
+                fontSize = 16.sp,
                 style = MaterialTheme.typography.h5,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,
@@ -51,11 +52,8 @@ fun CityItemView(modifier: Modifier, title: String, image: String, selected: Boo
                 crossfade(true)
             }
 
-            Spacer(modifier = Modifier.width(20.dp))
-
             ItemCircleImage(
                 modifier = Modifier
-                    .weight(.2f)
                     .size(60.dp)
                     .padding(10.dp),
                 image = profileImagePainter,

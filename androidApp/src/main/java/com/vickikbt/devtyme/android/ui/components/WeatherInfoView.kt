@@ -1,6 +1,5 @@
 package com.vickikbt.devtyme.android.ui.components
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -16,7 +15,7 @@ import androidx.compose.ui.unit.sp
 import com.vickikbt.devtyme.android.R
 
 @Composable
-fun WeatherInfo(
+fun WeatherInfoView(
     modifier: Modifier = Modifier,
     title: String,
     subTitle: String,
@@ -24,8 +23,7 @@ fun WeatherInfo(
 
     Row(
         modifier = modifier
-            .fillMaxWidth()
-            .padding(start = 16.dp, top = 4.dp, end = 8.dp),
+            .fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
@@ -34,7 +32,7 @@ fun WeatherInfo(
         Text(
             text = "$title: ",
             color = MaterialTheme.colors.onSurface,
-            fontSize = 16.sp,
+            fontSize = 15.sp,
             style = MaterialTheme.typography.h5,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
@@ -61,5 +59,5 @@ fun WeatherInfo(
 @Preview
 @Composable
 fun WeatherPreview() {
-    WeatherInfo(title = "Hello", subTitle = "Victor")
+    WeatherInfoView(title = "Hello", subTitle = "Victor")
 }

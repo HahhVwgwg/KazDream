@@ -7,9 +7,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -22,7 +20,7 @@ import com.vickikbt.devtyme.android.R
 import com.vickikbt.devtyme.android.ui.components.CityItemView
 import com.vickikbt.devtyme.android.ui.components.DatesTabs
 import com.vickikbt.devtyme.android.ui.components.HomeToolbar
-import com.vickikbt.devtyme.android.ui.components.WeatherInfo
+import com.vickikbt.devtyme.android.ui.components.WeatherInfoView
 import org.koin.androidx.compose.getViewModel
 
 @Composable
@@ -31,16 +29,18 @@ fun HomeScreen(navController: NavController, viewModel: HomeViewModel = getViewM
     LaunchedEffect(key1 = true) {
         viewModel.getCurrentUserProfile()
         viewModel.getTimeOfDay()
-        viewModel.getCurrentDate()
+        viewModel.getDaysOfWeek()
+        viewModel.getCities()
     }
 
     val currentUserProfile by viewModel.currentUser.observeAsState()
     val greetingMessage by viewModel.greetingMessage.observeAsState()
+    val currentDate by viewModel.currentDate.observeAsState()
     val daysOfWeek = viewModel.daysOfWeek.observeAsState()
     val cities by viewModel.citiesList.observeAsState()
     val weather by viewModel.weather.observeAsState()
 
-    var selectedDate = viewModel.selectedDate
+    var selectedDate by remember { mutableStateOf(daysOfWeek.value?.indexOf(currentDate)) }
 
     var selectedCity = viewModel.selectedCity
 
@@ -81,25 +81,25 @@ fun HomeScreen(navController: NavController, viewModel: HomeViewModel = getViewM
 
                 Spacer(modifier = Modifier.height(20.dp))
 
-                WeatherInfo(
+                WeatherInfoView(
                     modifier = Modifier,
                     title = stringResource(R.string.temperature),
                     subTitle = weather?.main?.temp.toString()
                 )
 
-                WeatherInfo(
+                WeatherInfoView(
                     modifier = Modifier,
                     title = stringResource(R.string.feels_like),
                     subTitle = weather?.main?.feelsLike.toString()
                 )
 
-                WeatherInfo(
+                WeatherInfoView(
                     modifier = Modifier,
                     title = stringResource(R.string.pressure),
                     subTitle = weather?.main?.pressure.toString()
                 )
 
-                WeatherInfo(
+                WeatherInfoView(
                     modifier = Modifier,
                     title = stringResource(R.string.humidity),
                     subTitle = weather?.main?.humidity.toString()
@@ -108,7 +108,7 @@ fun HomeScreen(navController: NavController, viewModel: HomeViewModel = getViewM
                 Text(
                     text = stringResource(R.string.title_cities),
                     color = MaterialTheme.colors.onSurface,
-                    fontSize = 22.sp,
+                    fontSize = 18.sp,
                     style = MaterialTheme.typography.h5,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,

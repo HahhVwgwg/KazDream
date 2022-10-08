@@ -30,9 +30,8 @@ class DateTimeRepositoryImpl : DateTimeRepository {
     override fun getDaysOfWeek(): Flow<List<String>> {
         val today = Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).date
         val days = mutableListOf<String>()
-        val firstWeekDay = today.daysShift(-DayOfWeek.values().indexOf(today.dayOfWeek))
         for (i in 0 until DayOfWeek.values().count()) {
-            days.add(firstWeekDay.daysShift(i).toString())
+            days.add(today.daysShift(i).toString())
         }
         return flowOf(days)
     }

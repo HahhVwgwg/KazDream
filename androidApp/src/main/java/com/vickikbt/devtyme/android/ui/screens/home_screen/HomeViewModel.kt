@@ -28,6 +28,9 @@ class HomeViewModel constructor(
     private val _greetingMessage = MutableLiveData<String>()
     val greetingMessage: LiveData<String> get() = _greetingMessage
 
+    private val _currentDate = MutableLiveData<String>()
+    val currentDate: LiveData<String> get() = _currentDate
+
     private val _daysOfWeek = MutableLiveData<List<String>>()
     val daysOfWeek: LiveData<List<String>> get() = _daysOfWeek
 
@@ -75,11 +78,11 @@ class HomeViewModel constructor(
         }
     }
 
-    fun getCurrentDate() {
+    private fun getCurrentDate() {
         viewModelScope.launch {
             try {
                 dateTimeRepository.getCurrentDate().collectLatest {
-                    getDaysOfWeek(it)
+                    _currentDate.value = it
                 }
             } catch (e: Exception) {
                 _errorMessage.value = e.localizedMessage
@@ -87,13 +90,11 @@ class HomeViewModel constructor(
         }
     }
 
-    private fun getDaysOfWeek(currentDate: String) {
+    fun getDaysOfWeek() {
         viewModelScope.launch {
             try {
                 dateTimeRepository.getDaysOfWeek().collectLatest { list ->
                     _daysOfWeek.value = list
-                    selectedDate = list.indexOf(currentDate)
-                    getCities()
                 }
             } catch (e: Exception) {
                 _errorMessage.value = e.localizedMessage
@@ -136,7 +137,7 @@ class HomeViewModel constructor(
         fetchWeather(lat = city.lat, long = city.lon)
     }
 
-    fun onDateChanged(selectedDate: Int) {
+    fun onDateChanged(selectedDate: Int?) {
 
     }
 }
