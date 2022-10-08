@@ -1,0 +1,96 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/maqsat/.gradle/caches/transforms-3/914f49c9c4311ac0b2ad9b66ec5639ff/transformed/core-splashscreen-1.0.0-beta01/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "629",
+                        "endColumns": "85",
+                        "endOffsets": "710"
+                    }
+                },
+                {
+                    "source": "/Users/maqsat/.gradle/caches/transforms-3/1f1ac665fbe9a9bc3510a57bdf96d926/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,50",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "715,785,869,953,1049,1151,1253,3790",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "780,864,948,1044,1146,1248,1342,3874"
+                    }
+                },
+                {
+                    "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/values-night/themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "103",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "681"
+                    },
+                    "to": {
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "1347",
+                        "endLines": "33",
+                        "endColumns": "12",
+                        "endOffsets": "1923"
+                    }
+                },
+                {
+                    "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "17,12,9,13,2,11,3,5,6,7,16,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "548,387,297,426,55,349,102,152,198,246,508,466",
+                        "endColumns": "39,38,50,39,46,37,48,45,47,49,39,40",
+                        "endOffsets": "583,421,343,461,97,382,146,193,241,291,543,502"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,140,179,230,270,317,355,404,450,498,548,588",
+                        "endColumns": "39,38,50,39,46,37,48,45,47,49,39,40",
+                        "endOffsets": "135,174,225,265,312,350,399,445,493,543,583,624"
+                    }
+                },
+                {
+                    "source": "/Users/maqsat/.gradle/caches/transforms-3/bf7455e41ef3c90dd17d94b54b6e9a02/transformed/material-1.4.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,143,267,369,471,587,689,803,931,1047,1169,1305,1425,1559,1679,1791,1917,2041,2171,2293,2431,2565,2681",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "138,262,364,466,582,684,798,926,1042,1164,1300,1420,1554,1674,1786,1912,2036,2166,2288,2426,2560,2676,2796"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1928,2016,2140,2242,2344,2460,2562,2676,2804,2920,3042,3178,3298,3432,3552,3664,3879,4003,4133,4255,4393,4527,4643",
+                        "endColumns": "87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,123,129,121,137,133,115,119",
+                        "endOffsets": "2011,2135,2237,2339,2455,2557,2671,2799,2915,3037,3173,3293,3427,3547,3659,3785,3998,4128,4250,4388,4522,4638,4758"
+                    }
+                }
+            ]
+        }
+    ]
+}

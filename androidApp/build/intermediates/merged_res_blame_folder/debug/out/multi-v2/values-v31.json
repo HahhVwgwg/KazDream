@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "/Users/maqsat/.gradle/caches/transforms-3/914f49c9c4311ac0b2ad9b66ec5639ff/transformed/core-splashscreen-1.0.0-beta01/res/values-v31/values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        }
+    ]
+}

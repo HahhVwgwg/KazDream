@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vickikbt.devtyme"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:7:5-34:19
+14        android:name="com.vickikbt.devtyme.android.DevTymeApplication"
+14-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:8:9-43
+15        android:allowBackup="false"
+15-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:9:9-36
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/maqsat/.gradle/caches/transforms-3/3ffd9c4e20ee0927d54d5af7bf0feae5/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:label="@string/app_name"
+18-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:10:9-41
+19        android:supportsRtl="true"
+19-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.DevTyme" >
+21-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:12:9-45
+22        <activity
+22-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:13:9-33:20
+23            android:name="com.vickikbt.devtyme.android.ui.activity.MainActivity"
+23-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:14:13-53
+24            android:exported="true" >
+24-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:17:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:18:17-69
+26-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:19:17-77
+28-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30            <intent-filter>
+30-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:22:13-32:29
+31                <action android:name="android.intent.action.VIEW" />
+31-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:23:17-69
+31-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.DEFAULT" />
+33-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:25:17-76
+33-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:25:27-73
+34                <category android:name="android.intent.category.BROWSABLE" />
+34-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:26:17-78
+34-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:26:27-75
+35
+36                <data
+36-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:28:17-30:48
+37                    android:host="oauth2"
+37-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:29:21-42
+38                    android:scheme="devtyme" />
+38-->/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/AndroidManifest.xml:30:21-45
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:25:13-67
+44            android:authorities="com.vickikbt.devtyme.androidx-startup"
+44-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+47                android:name="com.russhwolf.settings.SettingsInitializer"
+47-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+48                android:value="androidx.startup" />
+48-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:0.8.1] /Users/maqsat/.gradle/caches/transforms-3/4544b54a4a4ff42894bedec07be51a20/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/maqsat/.gradle/caches/transforms-3/d9c1f121d27dd89457047dae19c78757/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/maqsat/.gradle/caches/transforms-3/d9c1f121d27dd89457047dae19c78757/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+51                android:value="androidx.startup" />
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/maqsat/.gradle/caches/transforms-3/d9c1f121d27dd89457047dae19c78757/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+52            <meta-data
+52-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+53-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:32:17-85
+54                android:value="androidx.startup" />
+54-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/maqsat/.gradle/caches/transforms-3/f5bf10be0b713946e20098a4859b7788/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/maqsat/.gradle/caches/transforms-3/f5bf10be0b713946e20098a4859b7788/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/maqsat/.gradle/caches/transforms-3/f5bf10be0b713946e20098a4859b7788/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59
+60        <receiver
+60-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:36:9-45:20
+61            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+61-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:37:13-76
+62            android:directBootAware="false"
+62-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:38:13-44
+63            android:enabled="true"
+63-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:39:13-35
+64            android:exported="true"
+64-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:40:13-36
+65            android:permission="android.permission.DUMP" >
+65-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:41:13-57
+66            <intent-filter>
+66-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:42:13-44:29
+67                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+67-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:43:17-91
+67-->[androidx.profileinstaller:profileinstaller:1.1.0] /Users/maqsat/.gradle/caches/transforms-3/347a16a91ff6eeb7b201853fce756dee/transformed/profileinstaller-1.1.0/AndroidManifest.xml:43:25-88
+68            </intent-filter>
+69        </receiver>
+70    </application>
+71
+72</manifest>

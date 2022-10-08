@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/raw_trophy.json.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/raw/trophy.json"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/font_poppins_regular.ttf.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/font_poppins_extra_bold.ttf.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/font/poppins_extra_bold.ttf"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/font_poppins_semibold.ttf.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/font/poppins_semibold.ttf"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/font_poppins_medium.ttf.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/font/poppins_medium.ttf"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/drawable_ic_minus.xml.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/drawable/ic_minus.xml"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/drawable_ic_add.xml.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/font_poppins_bold.ttf.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/maqsat/StudioProjects/DevTyme/androidApp/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/maqsat/StudioProjects/DevTyme/androidApp/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

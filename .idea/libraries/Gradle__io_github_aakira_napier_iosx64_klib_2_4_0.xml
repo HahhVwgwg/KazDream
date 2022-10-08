@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.aakira:napier-iosx64:klib:2.4.0" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.aakira/napier-iosx64/2.4.0/7317b47dfb59ee0d5654b9512a286b2aa5b2b7f0/napier.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.aakira/napier-iosx64/2.4.0/cdd8ad3d9446e2c9eacac1ac954ff0a883203227/napier-iosx64-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

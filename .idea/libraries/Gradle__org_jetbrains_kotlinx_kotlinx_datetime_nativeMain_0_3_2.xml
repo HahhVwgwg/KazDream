@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-datetime:nativeMain:0.3.2" type="kotlin.native">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/kotlin/sourceSetMetadata/shared.DevTyme/commonTest/implementation/org.jetbrains.kotlinx-kotlinx-datetime/org.jetbrains.kotlinx-kotlinx-datetime-nativeMain.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime/0.3.2/369d037ba8a21c4cc18e34748a03b926a2840c44/kotlinx-datetime-0.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

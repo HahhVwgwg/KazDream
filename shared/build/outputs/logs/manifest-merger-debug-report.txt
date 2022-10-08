@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml:2:1-44
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml:2:1-44
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml:2:1-44
+	package
+		ADDED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml:2:11-41
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml:2:1-44
+uses-sdk
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/maqsat/StudioProjects/DevTyme/shared/src/androidMain/AndroidManifest.xml
